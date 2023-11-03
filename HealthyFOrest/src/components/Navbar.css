@@ -1,11 +1,21 @@
 /* Navbar.css */
 .navbar {
-    background-color: hsl(95,52%,62%);
+    position: fixed;
+    width: 100%;
+    background-color: hsla(166, 51%, 32%, 0.687);
     display: flex;
-    justify-content: flex-end;
     gap: 10px;
     padding: 10px 0;
     overflow: hidden;
+  }
+
+  .navbar img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   
   .nav-link {
@@ -18,9 +28,5 @@
     transition: background-color 0.3s ease;
     margin-right: 10em;
     line-height: 1.5em;
+
   }
-  
-  .nav-link:hover {
-    background-color: darkgreen;
-  }
-  

@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto,serif,sans-serif;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: hsla(166, 70%, 17%, 0.647);
+  z-index: 10;
+}
+.navbar .logo{
+  display: inline-flex;
+  width: 20%;
+  height: 100%;
+}
+.navbar img{
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.navbar .links{
+  display: inline-flex;
+  justify-content: flex-end;
+  float: right;
+  gap: 8em;
+  width: 80%;
+
+}
+
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 4em;
+  margin-right: 25px;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  width: 100%;
+}
+.content{
+  margin-top: 20em;
+  display: block;
+  position: relative;
+  height: auto;
+}
+
+.content h1{
+  font-size: 10em;
+  text-align: center;
+  color: white;
+  opacity: 0.50;
+}
+
+.content .text {
+  margin-top: 10em;
+  padding-top:5em;
+  text-align: center;
+}
+.content .text .container1{
+  background-image: url(climateChange.jpeg);
+  background-position: left center ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.content .text .first-Card{
+  background-color: hsl(157,46%,30%);
+  margin-left: 60%;
+  display: block;
+  z-index: 5;
+  width: 30em;
+  height: fit-content;
+  border-radius: 10%;
+  margin-top: 15em;
+  padding: 3%;
+
+}
+
+.content .text .first-Card p{
+  color: white;
+  font-size: large;
+  line-height: 2em;
+  padding: 5%;
+}
+
+.content .text .container2{
+  background-image: url(wildfire.jpeg);
+  background-position: right center ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.content .text .second-Card{
+  background-color: hsl(157,46%,30%);
+  display: block;
+  z-index: 5;
+  width: 30em;
+  height: fit-content;
+  margin-top: 10em;
+  padding: 3%;
+  border-radius: 12%;
+  margin-left: 10%;
+
+}
+
+.content .text .second-Card li{
+  color: white;
+  font-size: large;
+  line-height: 2em;
+  text-align: left;
+  text-decoration: dotted;
+  margin-left: 3%;
+}
+
+
+.content .text .container3{
+  background-image: url(platform.png);
+  background-position: left center ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.content .text .third-Card{
+  background-color: hsl(157,46%,30%);
+  display: block;
+  z-index: 5;
+  width: 30em;
+  height: fit-content;
+  border-radius: 10%;
+  margin-top: 10em;
+  margin-left: 60%;
+  margin-bottom: 10em;
+  padding: 3%;
+
+  
+}
+
+.content .text .third-Card p{
+  color: white;
+  font-size: large;
+  line-height: 2em;
+}
+
+.footer {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  letter-spacing: .5px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: hsl(166,69%,17%);
+  line-height: 2.5em;
+}
